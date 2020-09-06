@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Clipboard landing page</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+  <header class="container-fluid mb-5">
+    <div class="py-5 header-img">
+      <img src="images/logo.svg" alt="Logo">
+    </div>
+    <div class="col-12 col-md-6 mx-md-auto">
+      <h2 class="pb-2">
+        A history of everything you copy
+      </h2>
+      <p class="pb-4">
+        Clipboard allows you to track and organize everything you
+        copy. Instantly access your clipboard on all your devices.
+      </p>
+
+      <div class="row">
+        <div class="col-12 col-md-6 d-flex justify-content-center justify-content-md-end mb-2">
+          <button name="iosDownload" class="btn rounded-pill text-white xs-block">
+            Download for iOS
+          </button>
+        </div>
+        <div class="col-12 col-md-6 d-flex  justify-content-center justify-content-md-start mb-2">
+          <button name="macDownload" class="btn rounded-pill text-white">
+            Download for Mac
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="mt-5">
+
+    <!--Keep Track-->
+    <section class="pt-5" id="track">
+      <!--header-->
+      <div class="col-12 col-lg-6 mx-lg-auto">
+        <h3 class="pb-2">
+          Keep track of your snippets
+        </h3>
+        <p class="pb-4">
+          Clipboard instantly stores any item you copy in the cloud,
+          meaning you can access your snippets immediately on all your
+          devices. Our Mac and iOS apps will help you organize everything.
+        </p>
+      </div>
+
+      <!--body-->
+      <div class="row py-4">
+        <div class="col-12 col-lg-6">
+          <img class="img-fluid" src="images/image-computer.png" alt="computer">
+        </div>
+        <div class="col-12 col-lg-6 px-2 pl-lg-5">
+          <div class="d-flex flex-column justify-content-between text-centre text-lg-left px-2 pl-lg-5">
+            <div class="col-12 col-lg-8  px-4 py-4 pr-lg-5">
+              <h4>Quick Search</h4>
+              <p>Easily search your snippets by content, category, web address, application, and more.</p>
+            </div>
+            <div class="col-12 col-lg-8  px-4 py-4 pr-lg-5">
+              <h4>iCloud Sync</h4>
+              <p>Instantly saves and syncs snippets across all your devices.</p>
+            </div>
+            <div class="col-12 col-lg-8  px-4 py-4 pr-lg-5">
+              <h4>Complete History</h4>
+              <p>Retrieve any snippets from the first moment you started using the app.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Access Clipboard-->
+    <section class="pt-5" id="accessClipboard">
+      <!--header-->
+      <div class="col-12 col-md-6 mx-md-auto">
+        <h3 class="pb-2">
+          Access Clipboard anywhere
+        </h3>
+        <p class="pb-4">
+          Whether you’re on the go, or at your computer, you can access all your Clipboard
+          snippets in a few simple clicks.
+        </p>
+      </div>
+
+      <!--body-->
+      <div class="row py-4">
+        <div class="col-12 col-md-6 mx-md-auto">
+          <img class="img-fluid" src="images/image-devices.png" alt="devices">
+        </div>
+      </div>
+    </section>
+
+    <!--super charge-->
+    <section class="pt-5" id="superCharge">
+      <!--Section header-->
+      <div class="col-12 col-md-6 mx-md-auto">
+        <h3 class="pb-2">
+          Supercharge your workflow
+        </h3>
+        <p class="pb-4">
+          We’ve got the tools to boost your productivity.
+        </p>
+      </div>
+
+      <!--body-->
+
+      <!--features-->
+      <div class="row py-4">
+        <div class="col-12 col-md-4 px-4 px-md-5">
+          <img class="py-5" src="images/icon-blacklist.svg" alt="Blacklist">
+          <h4 class="py-2">Create blacklists</h4>
+          <p class="py-2">Ensure sensitive information never makes its way to your clipboard by excluding certain
+            sources.</p>
+        </div>
+        <div class="col-12 col-md-4 px-4 px-md-5">
+          <img class="py-5" src="images/icon-text.svg" alt="Plaintext">
+          <h4 class="py-2">Plain text snippets</h4>
+          <p class="py-2">Remove unwanted formatting from copied text for a consistent look.</p>
+        </div>
+        <div class="col-12 col-md-4 px-4 px-md-5">
+          <img class="py-5" src="images/icon-preview.svg" alt="Preview">
+          <h4 class="py-2">Sneak preview</h4>
+          <p class="py-2">Quick preview of all snippets on your Clipboard for easy access.</p>
+        </div>
+      </div>
+
+      <!--companies-->
+      <div class="row row-cols-1 row-cols-md-5 py-5 my-5">
+        <div class="col py-4">
+          <img class="img-fluid" src="images/logo-google.png" alt="Google">
+        </div>
+        <div class="col py-4">
+          <img class="img-fluid" src="images/logo-ibm.png" alt="IBM">
+        </div>
+        <div class="col py-4">
+          <img class="img-fluid" src="images/logo-microsoft.png" alt="Microsoft">
+        </div>
+        <div class="col py-4">
+          <img class="img-fluid" src="images/logo-hp.png" alt="HP">
+        </div>
+        <div class="col py-4">
+          <img class="img-fluid" src="images/logo-vector-graphics.png" alt="Vector Graphics">
+        </div>
+      </div>
+    </section>
+
+    <!--Downlaod Clipboard-->
+    <section class="pt-5" id="downloadClipboard">
+      <!--header-->
+      <div class="col-12 col-md-6 mx-md-auto">
+        <h3 class="pb-2">
+          Clipboard for iOS and Mac OS
+        </h3>
+        <p class="pb-4">
+          Available for free on the App Store. Download for Mac or iOS, sync with iCloud
+          and you’re ready to start adding to your clipboard.
+        </p>
+      </div>
+
+      <!--body-->
+      <div class="row">
+        <div class="col-12 col-md-6 d-flex justify-content-center justify-content-md-end mb-2">
+          <button name="iosDownload" class="btn rounded-pill text-white">
+            Download for iOS
+          </button>
+        </div>
+        <div class="col-12 col-md-6 d-flex  justify-content-center justify-content-md-start mb-2">
+          <button name="macDownload" class="btn rounded-pill text-white">
+            Download for Mac
+          </button>
+        </div>
+    </section>
+
+    <footer class="row py-5 my-5">
+      <div class="col-12 col-md-2 d-flex d-flex align-items-center justify-content-center">
+        <img class="h-50" src="images/logo.svg" alt="Logo">
+      </div>
+      <div class="col-12 col-md-2 text-md-left">
+        <div class="row h-100">
+          <div class="col-md-12 py-2 my-md-auto">FAQs</div>
+          <div class="col-md-12 py-2 my-md-auto">Contact Us</div>
+        </div>
+      </div>
+      <div class="col-12 col-md-2 text-md-left">
+        <div class="row h-100">
+          <div class="col-md-12 py-2 my-md-auto">Privacy Policy</div>
+          <div class="col-md-12 py-2 my-md-auto">Press Kit</div>
+        </div>
+      </div>
+      <div class="col-12 col-md-2 text-md-left">
+        <div class="row h-50">
+          <div class="col-md-12 py-2 my-md-auto">Install Guide</div>
+        </div>
+      </div>
+      <div class="col-12 col-md-2 offset-md-1">
+        <div class="row my-4 h-100">
+          <div class="col-4 my-md-auto">
+            <img src="images/icon-facebook.svg" alt="Facebook">
+          </div>
+          <div class="col-4 my-md-auto">
+            <img src="images/icon-twitter.svg" alt="Twitter">
+          </div>
+          <div class="col-4 my-md-auto">
+            <img src="images/icon-instagram.svg" alt="Instagram">
+          </div>
+        </div>
+      </div>
+
+      <p class="attribution mx-auto">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">Aditya Kumbhar</a>.
+      </p>
+    </footer>
+  </main>
+</body>
+
+</html>

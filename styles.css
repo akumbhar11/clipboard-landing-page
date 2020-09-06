@@ -1,0 +1,85 @@
+:root {
+    --StrongCyan: hsl(171, 66%, 44%);
+    --LightCyan :hsl(171, 56%, 42%);
+    --LightBlue: hsl(233, 100%, 69%);
+    --LighterBlue: hsl(233, 100%, 72%);
+    --DarkGrayishBlue: hsl(201, 11%, 66%);
+    --GrayishBlue: hsl(210, 10%, 33%);
+
+    /*Font sizes*/
+    --semi-bold:600;
+    --normal:400;
+}
+
+body {
+    font-size: 18px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: var(--GrayishBlue);
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: var(--semi-bold);
+}
+
+p{
+    color:var(--DarkGrayishBlue);
+    font-weight: var(--normal);
+}
+
+
+.header-img{
+    background-image:linear-gradient(to bottom, rgba(175, 173, 173, 0.1), rgba(255, 255, 255, 0.8)), url(images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.intro{
+    width: 50%;
+}
+
+button[name="iosDownload"]{
+    background:var(--LightCyan);
+}
+
+button[name="iosDownload"]:hover{
+    background:var(--StrongCyan);
+}
+
+button[name="macDownload"]{
+    background:var(--LighterBlue);
+}
+
+button[name="macDownload"]:hover{
+    background:var(--LightBlue);
+}
+
+/*If the browser window is 576px or smaller, the buttons will become blocks(full width)*/
+@media only screen and (max-width: 576px) {
+    button {
+        width: 100%;
+        display:block;
+    }
+}
+
+footer{
+    background-color: #f5f5f5;
+}
+
+footer img:hover{
+    filter: invert(53%) sepia(73%) saturate(371%) hue-rotate(122deg) brightness(96%) contrast(105%);   
+}
+
+footer div.row div:hover{
+    color:var(--StrongCyan);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center; 
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
